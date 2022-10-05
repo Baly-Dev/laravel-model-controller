@@ -1,0 +1,36 @@
+/* imports */
+.card {
+  width: calc(25% - 20px);
+  border: 2px solid #d1d1d1;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+.card .head {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.card .head .title {
+  margin-bottom: 8px;
+}
+.card .head .title:hover {
+  color: rgb(225, 146, 0);
+}
+.card .head .sub-title {
+  font-size: 0.8em;
+}
+.card .body .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}

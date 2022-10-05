@@ -1,0 +1,63 @@
+/* imports */
+header {
+  height: 60px;
+  border-bottom: 1px solid #d1d1d1;
+}
+header nav {
+  padding: 0px 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+header .menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: auto;
+}
+header .menu .menu-item a {
+  font-weight: 500;
+}
+header .menu .menu-item a:hover {
+  color: rgb(225, 146, 0);
+}
+
+/* reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* globals */
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #262626;
+}
+
+li {
+  list-style: none;
+}
+
+#hero {
+  text-align: center;
+  padding: 60px 0px;
+}

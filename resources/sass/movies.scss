@@ -1,0 +1,9 @@
+/* imports */
+@import './partials/movie_card';
+
+.card-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}

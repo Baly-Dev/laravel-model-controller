@@ -1,0 +1,35 @@
+/* imports */
+@import './partials/header';
+
+/* reset */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* globals */
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #262626;
+}
+
+li{
+    list-style: none;
+}
+
+#hero{
+    text-align: center;
+    padding: 60px 0px;
+}
